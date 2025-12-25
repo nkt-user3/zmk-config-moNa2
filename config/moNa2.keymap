@@ -47,10 +47,10 @@
 
         mac_default_layer {
             bindings = <
-&kp ESC          &kp LG(W)     &kp LG(P)     &kp LG(R)  &kp TAB                                             &kp LC(UP)     &kp F15        &mt F13 LEFT_SHIFT  &kp UP    &mt F14 LEFT_SHIFT
-&kp LG(A)        &kp LG(S)     &kp LG(D)     &kp LG(F)  &kp LA(LS(LG(L)))                    &kp LG(KP_N0)  &kp LG(SPACE)  &kp LG(RIGHT)  &kp LEFT            &kp DOWN  &kp RIGHT
-&mt LCTRL LG(Z)  &kp LG(X)     &kp LG(C)     &kp LG(V)  &kp LG(B)          &mt CAPS LANG2    &kp LANG1      &kp LG(U)      &kp LG(LEFT)   &mkp MB1            &mo 5     &mkp MB2
-&kp LSHFT        &kp LEFT_WIN  &kp LEFT_ALT  &mo 6      &lt 4 SPACE        &mo 2             &kp BACKSPACE  &kp ENTER                                                   &kp DEL
+&kp ESC          &kp LG(W)     &kp LG(P)     &kp LG(R)  &kp TAB                                             &kp LC(UP)     &mt LG(LS(NUMBER_3)) LG(LS(N5))  &mt F13 LG(LS(TAB))  &kp UP    &mt F14 LG(TAB)
+&kp LG(A)        &kp LG(S)     &kp LG(D)     &kp LG(F)  &kp LA(LS(LG(L)))                    &kp LG(KP_N0)  &kp LG(SPACE)  &kp LG(RIGHT)                    &kp LEFT             &kp DOWN  &kp RIGHT
+&mt LCTRL LG(Z)  &kp LG(X)     &kp LG(C)     &kp LG(V)  &kp LG(B)          &mt CAPS LANG2    &kp LANG1      &kp LG(U)      &kp LG(LEFT)                     &mkp MB1             &mo 5     &mkp MB2
+&kp LSHFT        &kp LEFT_WIN  &kp LEFT_ALT  &mo 6      &lt 4 SPACE        &mo 2             &kp BACKSPACE  &kp ENTER                                                                      &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_MINUS) LG(KP_PLUS)>;
